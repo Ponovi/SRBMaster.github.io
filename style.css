@@ -366,3 +366,9 @@ tr:nth-child(even) {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
+
+#borderimg { 
+     border: 10px solid transparent;
+     padding: 15px;
+     border-image: url(slike/border/border1.png) 35 stretch;
+}
