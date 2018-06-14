@@ -1,0 +1,16 @@
+border - okvir sajta
+widrh - velicina sajta
+margin - od gornje strane odvojeno
+margin-down - razmak od (primer) Menija do sledeceg teksta
+padding - razmak teksta od margina
+
+
+Slike 700x300
+
+960x550 moj slide
+
+000webshost > Pw: Ax8rcdnktKDYR1EmjyJY
+
+Logo animea: 140x195 
+
+Key Visual = Logo animea

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8" />
+        <title>Anime Fanatici</title>
+        <link rel="stylesheet" href="cssjs/reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="cssjs/java.js"></script>
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+    }
+    </script>
+
+        <style> 
+            #borderimg { 
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(slike/border/border1.png) 35 stretch;
+        }
+        </style>
+    </head>
+
+    <body onload="startTime()">
+    <div id="stranica">
+        <nav id="meni">
+            <ul>
+                <a href="index - Copy.html" target="_self"><button class="pocetna">Pocetna</button></a>                        
+                <div class="dropdown">
+                    <button class="dropbtn">Anime</button>
+                    <div class="dropdown-content">
+                        <a href="serije.html" target="_self">Anime Serije</a>
+                        <a href="filmovi.html" target="_self">Anime Filmovi</a>
+                    </div>
+                </div>
+                <a href="deck.html" target="_self"><button  class="pocetna">Yu-Gi-Oh! Decks</button></a>
+                
+        </nav>
+
+        <section id="slide">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="slike/slider/img4.jpg"  style="width:100%">
+                <div class="text">Highschool DxD</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="slike/slider/img1.jpg" style="width:100%">
+                <div class="text">Hundred</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="slike/slider/img2.jpg" style="width:100%">
+                <div class="text">No Game No Life</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="slike/slider/img3.jpg" style="width:100%">
+                <div class="text">Noragami</div>
+            </div>
+
+        <br>
+        <div style="text-align:center">
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+        </div>
+
+        <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+             var i;
+             var slides = document.getElementsByClassName("mySlides");
+             var dots = document.getElementsByClassName("dot");
+             for (i = 0; i < slides.length; i++) {
+                     slides[i].style.display = "none";  
+                 }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 10000); // Change image every 10 seconds
+            }
+        </script>
+        </section>
+
+        <section id="glavno">
+                <article>
+                        <header>
+                                <hgroup>
+                                        <h1>Naslov</h1>
+                                </hgroup>
+                        </header>
+                               <h2>Tekst (Izmedju Hedera i Futera)</h2>
+                        <foother>
+                                <h2>Autor: Master (Ili nesto slicno)</h2>
+                        </foother>
+                </article>
+        </section>
+
+        <section id="glavno">
+                <article>
+                        <header>
+                                <hgroup>
+                                        <h1>Nesto kao naslov</h1>
+                                </hgroup>
+                        </header>
+                                <p>Ovde dodje sadrzaj</p>
+                        <foother>
+                                <h2>Autor: Master</h2>
+                        </foother>
+                </article>
+        </section>
+
+        <aside id="obavestenja">
+                <h1><center>Obavestenja!</center></h1>
+                <h2>Sajt je jos uvek u izradi!</h2>
+                <h2>Radovi odpoceti: 21.05.2018!</h2>
+                <h2>Vlasnik sajta: Master!</h2>
+        </aside>
+
+       <section id="vreme">
+                <center><div id="txt"></div></center>
+        </section>
+
+        <section id="decks">
+                <h1><center>All Decks</center></h1>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/maskedhero.jpg" width=195></center></a></h2>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/neosspac.jpg" width=195></center></a></h2>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/spellbook.jpg" width=195></center></a></h2>
+        </section>
+
+        <foother id="foother">
+                <p id="borderimg">Anime Fanatici 2018 &#169; Sva prava zadrzana</p>
+        </foother>
+    </div>
+    </body>
+</html>

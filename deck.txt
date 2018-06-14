@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8" />
+        <title>Yu-Gi-Oh! Decks - Anime Fanatici</title>
+        <link rel="stylesheet" href="cssjs/reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="cssjs/java.js"></script>
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+    }
+    </script>
+    </head>
+
+    <body onload="startTime()">
+    <div id="deckstranica">
+        <nav id="meni">
+            <ul>
+                <a href="index - Copy.html" target="_self"><button class="pocetna">Pocetna</button></a>                        
+                <div class="dropdown">
+                    <button class="dropbtn">Anime</button>
+                    <div class="dropdown-content">
+                        <a href="#anime-serije">Anime Serije</a>
+                        <a href="#anime-filmovi">Anime Filmovi</a>
+                    </div>
+                </div>
+                <a href="deck.html" target="_self"><button  class="pocetna">Yu-Gi-Oh! Decks</button></a>
+                
+                <div class="topnav">
+	<div class="search-container">
+                    <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                </div>
+            </ul>
+        </nav>
+
+        <section id="glavno">
+        
+        </section>
+
+        <section id="deckglavno">
+                <article>
+                        <header>
+                                <hgroup>
+                                        <center><img src="slike/deck/maskedhero.jpg" width=936 height=auto/></center>
+                                </hgroup>
+                        </header>
+                          
+                               <center><table>
+                               <tr>
+                                        <td><center>3x Destiny HERO - Drilldark</center><center><div class="zoom"><img src="slike/deck/destinydeck/darkdrill.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Destiny HERO - Celestial</center><center><div class="zoom"><img src="slike/deck/destinydeck/celestial.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Destiny HERO - Decider</center><center><div class="zoom"><img src="slike/deck/destinydeck/decider.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Cosmic Cyclone</center><center><div class="zoom"><img src="slike/deck/destinydeck/cyclone.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Mask Change</center><center><div class="zoom"><img src="slike/deck/destinydeck/maskchange.jpg" width=80 height=110></div></center></td>
+                               </tr>
+                               <tr>
+                                        <td><center>3x Enemy Controller</center><center><div class="zoom"><img src="slike/deck/destinydeck/controler.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Forbidden Chalice</center><center><div class="zoom"><img src="slike/deck/destinydeck/forbidden.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Powerful Rebirth</center><center><div class="zoom"><img src="slike/deck/destinydeck/rebirth.jpg" width=80 height=110></div></center></td>
+                                        <td><center>-</center></td>
+                                        <td><center>3 x Masked HERO Anki</center><center><div class="zoom"><img src="slike/deck/destinydeck/maskedman.jpg" width=80 height=110></div></center></td>
+                               </tr>
+                               </table></center>
+
+                               <center><table>
+                               <tr> 
+                                        <th><center>Potreban Skill: DESTINY CALLING</center></th>
+                                        <th><center>Korisnik</center></th>
+                               </tr>
+                               <tr>
+                                        <td><center>DESTINY CALLING: Moze se koristiti nakon sto su Vam zivotni poeni na 2000 ili manje. Ovaj skill se moze koristiti samo jednom po Duel-u.</center></td>
+                                        <td><center>Aster Phoenix</center><center><img src="slike/deck/destinydeck/aster.jpg" width=100 height=110></center></td>
+                               </tr>
+                               </table></center>
+
+                </article>
+        </section>
+
+        <section id="deckglavno">
+                <article>
+                        <header>
+                                <hgroup>
+                                        <center><img src="slike/deck/neosspac.jpg" width=936 height=auto/></center>
+                                </hgroup>
+                        </header>
+                          
+                               <center><table>
+                               <tr>
+                                        <td><center>1x Elemental HERO Neos Alius</center><center><div class="zoom"><img src="slike/deck/spaciandeck/alius.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Neo-Spacian Air Hummingbird</center><center><div class="zoom"><img src="slike/deck/spaciandeck/air.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Neo-Spacian Aqua Dolphin</center><center><div class="zoom"><img src="slike/deck/spaciandeck/aqua.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Neo-Spacian Dark Panter</center><center><div class="zoom"><img src="slike/deck/spaciandeck/panter.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Elemental HERO Neos</center><center><div class="zoom"><img src="slike/deck/spaciandeck/neos.jpg" width=80 height=110></div></center></td>
+                               </tr>
+                               <tr>
+                                        <td><center>3x Crystal Seer</center><center><div class="zoom"><img src="slike/deck/spaciandeck/seer.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Miracle Contact</center><center><div class="zoom"><img src="slike/deck/spaciandeck/contact.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Neo Space</center><center><div class="zoom"><img src="slike/deck/spaciandeck/neosspace.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Wall of Disruption</center><center><div class="zoom"><img src="slike/deck/spaciandeck/wall.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Windstorm of Etaqua</center><center><div class="zoom"><img src="slike/deck/spaciandeck/windstorm.jpg" width=80 height=110></div></center></td>
+                               </tr>
+
+                               <tr>
+                               <td><center>2x Floodgate Trap Hold</center><center><div class="zoom"><img src="slike/deck/spaciandeck/hole.jpg" width=80 height=110></div></center></td>
+                               <td><center>1x Elemental HERO Storm Neos</center><center><div class="zoom"><img src="slike/deck/spaciandeck/storm.jpg" width=80 height=110></div></center></td>
+                               <td><center>1x Elemental HERO Aqua Neos</center><center><div class="zoom"><img src="slike/deck/spaciandeck/aquaneos.jpg" width=80 height=110></div></center></td>
+                               <td><center>1x Elemental HERO Dark Neos</center><center><div class="zoom"><img src="slike/deck/spaciandeck/dark.jpg" width=80 height=110></div></center></td>
+                               <td><center>1x Elemental HERO Neos Knight</center><center><div class="zoom"><img src="slike/deck/spaciandeck/knight.jpg" width=80 height=110></div></center></td>
+                               </tr>
+
+                               </table></center>
+
+                               <center><table>
+                               <tr> 
+                                        <th><center>Potreban Skill: LAST GAMBLE</center></th>
+                                        <th><center>Korisnik</center></th>
+                               </tr>
+                               <tr>
+                                        <td><center>LAST GAMBLE: Moze se koristiti na pocetku Vase runde. Nakon aktivacije, smanjuje Vas LP na 100 i odbacujete 2 kartice iz Vase ruke. Pacate kocku i izvlacite taj broj karata sa kocke. Ovaj skill se moze koristiti samo jednom po Duel-u.</center></td>
+                                        <td><center>Joey Wheeler</center><center><img src="slike/deck/spaciandeck/joey.jpg" width=100 height=110></center></td>
+                               </tr>
+                               </table></center>
+
+                </article>
+        </section>
+
+        <section id="deckglavno">
+                <article>
+                        <header>
+                                <hgroup>
+                                        <center><img src="slike/deck/spellbook.jpg" width=936 height=auto/></center>
+                                </hgroup>
+                        </header>
+                          
+                               <center><table>
+                               <tr>
+                                        <td><center>3x Blizzard Princesess</center><center><div class="zoom"><img src="slike/deck/spellbook/blizzard.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Spellbook Magician of Prophecy</center><center><div class="zoom"><img src="slike/deck/spellbook/magician.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Spellbook of Life</center><center><div class="zoom"><img src="slike/deck/spellbook/life.jpg" width=80 height=110></div></center></td>
+                                        <td><center>3x Spellbook of Secrets</center><center><div class="zoom"><img src="slike/deck/spellbook/secrets.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Spellbook Library of the Crescent</center><center><div class="zoom"><img src="slike/deck/spellbook/libarary.jpg" width=80 height=110></div></center></td>
+                               </tr>
+                               <tr>
+                                        <td><center>3x Spellbook of Fate</center><center><div class="zoom"><img src="slike/deck/spellbook/fate.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Spellbook of Power</center><center><div class="zoom"><img src="slike/deck/spellbook/power.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Spellbook of Eternity</center><center><div class="zoom"><img src="slike/deck/spellbook/eternity.jpg" width=80 height=110></div></center></td>
+                                        <td><center>2x Spellbook of the Master</center><center><div class="zoom"><img src="slike/deck/spellbook/master.jpg" width=80 height=110></div></center></td>
+                                        <td><center>1x Treacherous Trap Hole</center><center><div class="zoom"><img src="slike/deck/spellbook/trap.jpg" width=80 height=110></div></center></td>
+                               </tr>
+
+                               </table></center>
+
+                               <center><table>
+                               <tr> 
+                                        <th><center>Potreban Skill: RESTART</center></th>
+                                        <th><center>Korisnik</center></th>
+                               </tr>
+                               <tr>
+                                        <td><center>RESTART: Moze se koristiti samo jednom na pocetku runde. Startne karte vracate u deck, pri tome ih pokazujete protivniku. U zamenu za to dobijate novih catiri karata.</center></td>
+                                        <td><center>Yugi Moto</center><center><img src="slike/deck/spellbook/yugi.jpg" width=100 height=110></center></td>
+                               </tr>
+                               </table></center>
+
+                </article>
+        </section>
+
+        <aside id="obavestenja">
+                <h1><center>Obavestenja!</center></h1>
+                <h2>Sajt je jos uvek u izradi!</h2>
+                <h2>Radovi odpoceti: 21.05.2018!</h2>
+                <h2>Vlasnik sajta: Master!</h2>
+        </aside>
+
+        <section id="decks">
+                <h1><center>All Decks</center></h1>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/maskedhero.jpg" width=195></center></a></h2>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/neosspac.jpg" width=195></center></a></h2>
+                <h2><a href="deck.html" target="_self"><center><img src="slike/deck/spellbook.jpg" width=195></center></a></h2>
+        </section>
+
+       <section id="vreme">
+                <center><div id="txt"></div></center>
+        </section>
+
+        <foother id="foother">
+                <p>Anime Fanatici 2018 &#169; Sva prava zadrzana</p>
+        </foother>
+    </div>
+    </body>
+</html>

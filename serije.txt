@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8" />
+        <title>Anime Serije - Anime Fanatici</title>
+        <link rel="stylesheet" href="cssjs/reset.css" />
+        <link rel="stylesheet" href="style2.css" />
+        <script src="cssjs/java.js"></script>
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+    }
+    </script>
+    </head>
+
+    <body onload="startTime()">
+    <div id="deckstranica">
+        <nav id="meni">
+            <ul>
+                <a href="index - Copy.html" target="_self"><button class="pocetna">Pocetna</button></a>                        
+                <div class="dropdown">
+                    <button class="dropbtn">Anime</button>
+                    <div class="dropdown-content">
+                        <a href="serije.html" target="_self">Anime Serije</a>
+                        <a href="filmovi.html" target="_self">Anime Filmovi</a>
+                    </div>
+                </div>
+                <a href="deck.html" target="_self"><button  class="pocetna">Yu-Gi-Oh! Decks</button></a>
+                
+                <div class="topnav">
+	<div class="search-container">
+                    <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                </div>
+            </ul>
+        </nav>
+
+        <section id="glavno">
+        
+        </section>
+
+        <section id="glavno">
+<a href="https://www.anime404balkan.com/tv-series/watch/naruto-shippuden.html" class="poster tooltipstered">
+                                    <img src="slike/vision/dxd1.jpg"width=140 height=195" alt="Naruto Shippuden"> 
+                                             <div class="status">
+                                                <span class="bar"></span>
+                                                <div class="ep">Ep 112</div>
+												<div class="ova">HD</div>
+                                             </div>
+                                          </a>
+        </section>
+
+        <section id="glavno">
+                <article>
+                        <center><table>
+                               <tr>
+                                        <td><img src="slike/vision/dxd1.jpg"width=140 height=195><p>High School DxD</p><p>>2012<</p></td>
+                                        <td><img src="slike/vision/hundred.jpg"width=140 height=195><p>Hundred</p><p>>2016<</p></td>
+                                        <td><img src="slike/vision/gamelife.jpg"width=140 height=195><p>No Game No Life</p><p>>2014<</p></td>
+                               </tr>
+                               </table></center>
+                </article>
+        </section>
+
+        <aside id="obavestenja">
+                <h1><center>Obavestenja!</center></h1>
+                <h2>Sajt je jos uvek u izradi!</h2>
+                <h2>Radovi odpoceti: 21.05.2018!</h2>
+                <h2>Vlasnik sajta: Master!</h2>
+        </aside>
+
+       <section id="vreme">
+                <center><div id="txt"></div></center>
+        </section>
+
+        <foother id="foother">
+                <p>Anime Fanatici 2018 &#169; Sva prava zadrzana</p>
+        </foother>
+    </div>
+    </body>
+</html>
